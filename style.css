@@ -1,5 +1,5 @@
 :root{
-  --branding-color: #6c63ff;
+  --branding-color: #058C8C;
   --secondary-color: #F9F7FE; 
   --heading-font-family: "Playfair Display", serif;
   --deafult-font-family: "poppins", sans-serif;
@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6  {
   h1 {
     font-size: 96px;
     line-height: 1.5;
+    font-family:'Courier New', Courier, monospace
   }
 
   h2 {
@@ -138,12 +139,12 @@ h1, h2, h3, h4, h5, h6  {
 
   .nav a {
   text-decoration: none;
-  color: #272142;
+  color: #058C8C;
   transition: all 100ms ease-in-out;
   }
 
   .nav a:hover, .nav li.active a {
-   color: var(--branding-color); 
+   color: #123F67; 
   }
 
   footer {
